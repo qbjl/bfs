@@ -54,6 +54,8 @@ if file
         if file[i] == ']'
             if bytes[loc] != 0
                 i = locs[-1]
+            else
+                locs.pop
             end
         end
         # brainf silver additions
